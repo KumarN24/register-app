@@ -14,7 +14,7 @@ stages{
 
         stage("Checkout from SCM"){
                 steps {
-                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/KumarN24/register-app/edit/main/Jenkinsfiles'
+                    git branch: 'main', credentialsId: 'github', url: 'https://github.com/KumarN24/register-app'
                 }
         }
 
